@@ -1,0 +1,30 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略环境变量文件（防止泄露敏感信息）
+.env
+
+# 忽略日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略依赖锁文件（如果你只希望团队成员自己安装依赖）
+# package-lock.json
+# yarn.lock
+
+# 忽略编译生成的文件
+dist/
+build/
+out/
+
+# 忽略 IDE 和编辑器配置文件
+.vscode/
+.idea/
+*.swp
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
